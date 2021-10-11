@@ -1,6 +1,6 @@
 <?php
 // Conexão ao banco
-$link = mysql_connect('localhost','root','33#erp@myrouter#33');
+$link = mysql_connect('localhost','root','');
 $conexao = mysql_select_db('myrouter',$link);
 if($conexao){
     $sql = "SELECT * FROM empresa";

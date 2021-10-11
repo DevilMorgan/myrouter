@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
 $usuario = 'root';
-$senha = '33#erp@myrouter#33';
+$senha = '';
 $banco = 'myrouter';
 
 $bd = new mysqli($host,$usuario,$senha,$banco) or die("Não é Possivel Conecta ao Banco de Dados");
